@@ -1,0 +1,176 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    list-style: none;
+    max-width: 1280px;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    height: 80px;
+    margin: auto;
+
+}
+
+header img{
+  
+    justify-content: left;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #667085;
+    gap: 32px;
+    cursor: pointer;
+}
+
+#header-btn-cadastrar ul {
+    display: flex;
+    gap: 12px;
+    cursor: pointer;
+
+}
+
+#header-btn-cadastrar button {
+    width: 112px;
+    height: 44px;
+    border-radius: 8px;
+    border: none;
+    background: #8E2424;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sobre{
+    text-align: center;
+    max-width: 700px;
+    margin-top: 96px;
+    
+}
+
+.sobre h1{
+    font-size: 16px;
+    font-weight: 900;
+    color: #8E2424;
+    
+}
+.sobre h2{
+    font-size: 48px;
+    margin-top: 30px;
+}
+
+.sobre p{
+    margin-top: 30px;
+}
+
+.metricas{
+    display: flex;
+    gap: 64px;
+    margin-top: 96px;
+}
+
+.metricas div{
+    text-align: left;
+    width: 280px;
+    height: 160px;
+}
+.metricas div h1{
+    color: #8E2424;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.vagas{
+    text-align: center;
+    max-width: 1280px;
+    margin-top: 140px;
+   
+
+}
+.vagas h1{
+   
+    
+    font-size:14px ;
+}
+
+.vagas h2{
+    margin-top: 34px;
+    font-size: 36px;
+}
+.vagas-btn{
+    background: #8E24240D;
+    color: #8E2424;
+    width: 125px;
+    height: 28px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vagas p{
+    margin-top: 34px;
+    font-size: 20px;
+    color: #667085;
+}
+.vagas img{
+
+    width: 1280px;
+    margin-top: 36px;
+}
+
+.profissao{
+    max-width: 768px;
+    margin-top: 96px;
+}
+
+#profissao-h1-text{
+margin-top: 36px;
+}
+
+.profissao-card{
+    border: 1px solid #667085;
+    height: 136px;
+    border-radius: 16px;
+    padding: 24px 24px;
+    margin-top: 32px;
+    
+}
+
+.depoimentos{
+    margin-top: 96px;
+    height: 404px;
+    background: #8E24240D;
+    border-radius: 16px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.depoimentos h1{
+    margin-top: 36px;
+    font-size: 14px;
+    color: #8E2424;
+}
+.depoimentos h2{
+    margin-top: 36px;
+    font-size: 36px;
+    font-weight: 500;
+}
+.depoimentos-perfil{
+    margin-top: 36px;
+}
+
+.depoimentos-perfil h1{
+    color: black;
+}
